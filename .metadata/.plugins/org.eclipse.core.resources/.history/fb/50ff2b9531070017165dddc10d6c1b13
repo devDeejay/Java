@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class TreeSet {
+
+	public static void main(String[] args) {
+		//TreeSet is a set in which you can compare elements 
+		//while performing operations on them
+		Set<Integer> treeSet = new HashSet<>();
+	}
+
+}

@@ -1,0 +1,12 @@
+package binaryIO;
+
+public class Beehive {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int t = input.nextInt();
+		double P = 100 * Math.sqrt(t) + 201/(t+1) + 1;
+
+	}
+
+}

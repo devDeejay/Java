@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class SetListPerformance {
+	static final int N = 5000;
+	public static void main(String[] args) {
+		
+		List<Integer> list = new ArrayList<>();
+		for(int i = 0; i < N; i++)
+			list.add(i);
+		
+		Collections.shuffle(list);
+		
+		Collection<Integer> set1 = new HashSet<>(list);
+
+	}
+
+}

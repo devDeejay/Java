@@ -1,0 +1,22 @@
+package programs;
+
+import java.util.Scanner;
+
+public class Gaurav {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Input N and K");
+		int N = input.nextInt();
+		int K = input.nextInt();
+		int[] V = new int[N];
+		for (int i = 0; i < N; i++) {
+			V[i] = input.nextInt();
+		}
+		for (int i = 0; i <= K; i++) {
+			P[i] = input.nextInt();
+		}
+		
+	}
+
+}

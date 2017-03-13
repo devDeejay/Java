@@ -1,0 +1,16 @@
+package binaryIO;
+
+import java.util.Scanner;
+
+public class LightSegment {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String time = input.next();
+		String[] ary = time.split("");
+		int pos = time.indexOf(":");
+		String hrs = time.substring(0,pos);
+		String mins = time.substring(pos,time.length());
+		System.out.println(hrs+mins);
+	}
+}

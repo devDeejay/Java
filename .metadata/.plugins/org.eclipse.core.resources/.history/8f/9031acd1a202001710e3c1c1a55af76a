@@ -1,0 +1,6 @@
+
+public class Comparator implements java.util.Comparator<T> {
+	public int compare(T element1, T element2){
+		
+	}
+}

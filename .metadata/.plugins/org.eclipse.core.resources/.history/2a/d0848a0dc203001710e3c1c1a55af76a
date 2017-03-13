@@ -1,0 +1,17 @@
+package programs;
+
+import java.util.Scanner;
+
+public class NumbersJam {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int n = input.nextInt();
+		int ans =(int) Math.pow((3 + Math.sqrt(5)), n);
+		String s = (String) ans;
+		System.out.println(ans);
+		
+		System.out.println(ones+" "+tens);
+	}
+
+}

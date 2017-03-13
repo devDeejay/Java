@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class StringExampless {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String s = input.nextLine();
+		int count = 0;
+		for(int i=0;i<s.length();i++)
+		{
+		    char c = s.charAt(i);
+		    if(c > 122 || c < 65)
+		    {
+		    	System.out.println("Special");
+		    	count+=1;
+		    }
+		}
+		System.out.println(count);
+	}
+}

@@ -1,0 +1,13 @@
+import java.io.File;
+import java.util.Scanner;
+
+public class FindKeywordsInJavaFile {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Input Java Source File");
+		String filename = input.nextLine();
+		File file = new File(filename); 
+	}
+
+}

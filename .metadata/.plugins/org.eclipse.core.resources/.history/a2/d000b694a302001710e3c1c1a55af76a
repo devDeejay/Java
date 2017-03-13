@@ -1,0 +1,9 @@
+
+public class GeometricComparator implements java.util.Comparator<GeometricObject>, java.io.Serializable {
+
+	@Override
+	public int compare(GeometricObject element1, GeometricObject element2) {
+		
+		return 0;
+	}
+}

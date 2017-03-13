@@ -1,0 +1,18 @@
+package binaryIO;
+
+public class points {
+
+	int x;
+	int y;
+	
+	public points(int a,int b){
+		x = a;
+		y = b;
+	}
+	public int getX(){
+		return x;
+	}
+	public int getY(){
+		return y;
+	}
+}

@@ -1,0 +1,10 @@
+
+public class Vectors {
+
+	public static void main(String[] args) {
+		//Vectors are same as Arraylist, it just provides advanced methods for Synchronization
+		//Used in MultiThreading and all.
+		//ArrayList are more Efficient then Vectors.
+	}
+
+}

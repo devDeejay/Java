@@ -1,0 +1,13 @@
+package binaryIO;
+
+import java.util.Scanner;
+
+public class Beehive {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int cases = input.nextInt();
+		while(cases!=0)
+	}
+
+}

@@ -1,0 +1,37 @@
+package programs;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class MinimumVectorProduct {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int n = input.nextInt();
+		ArrayList<Integer> v1 = new ArrayList<>();
+		ArrayList<Integer> v2 = new ArrayList<>();
+		v1.sort();
+		for (int i = 0; i < n; i++) {
+			v1.add(input.nextInt());
+		}
+		for (int i = 0; i < n; i++) {
+			v2.add(input.nextInt());
+		}
+		
+		Collections.sort(v1);
+		Collections.sort(v2);
+		Collections.reverse(v2);
+		
+		Iterator<Integer> iterator1 = v1.iterator();
+		Iterator<Integer> iterator2 = v2.iterator();
+		
+		while (iterator.hasNext()){
+			int a = iterator.next();
+			int b = iterator2.next();
+		}
+		
+	}
+
+}

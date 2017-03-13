@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class LinkedListandLists {
+
+	public static void main(String[] args) {
+		List<Integer> arrayList = new ArrayList<>();
+		arrayList.add(1);
+		arrayList.add(2);
+		arrayList.add(3);
+		arrayList.add(4);
+		arrayList.add(0, 12);
+		arrayList.add(2, 12);
+		
+		java.util.Iterator<Integer> iterator = arrayList.iterator();
+		while(iterator.hasNext()){
+			System.out.println(iterator.next());
+		}
+		
+		System.out.println("Linked list");
+		
+		LinkedList<Object> linkedList = new LinkedList<>(arrayList);
+	}
+
+}

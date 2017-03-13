@@ -1,0 +1,10 @@
+
+public class Stack {
+	private int[] object;
+	private int top;
+	private int stackSize;
+	
+	public Stack(){
+		stackSize = 1;
+	}
+}

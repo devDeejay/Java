@@ -1,0 +1,20 @@
+package binaryIO;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class PrintWriterClass {
+
+	public static void main(String[] args) {
+		PrintWriter output;
+		try {
+			output = new PrintWriter("temp.txt");
+			output.print("Java 101");
+			output.close();
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

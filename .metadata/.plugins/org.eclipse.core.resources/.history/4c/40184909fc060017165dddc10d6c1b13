@@ -1,0 +1,9 @@
+
+public class LinkedHashSet {
+
+	public static void main(String[] args) {
+		//LinkedHashSet extends HashSet, But this also provides an ordering of the elements.
+		Set<String> set = new LinkedHashSet<>();
+	}
+
+}

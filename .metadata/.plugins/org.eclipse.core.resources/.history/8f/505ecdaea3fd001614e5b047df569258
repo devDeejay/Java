@@ -1,0 +1,24 @@
+package programs;
+
+import java.util.Scanner;
+
+public class SumOfTwoNums {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int F = input.nextInt();
+		int B = input.nextInt();
+		int T = input.nextInt();
+		int FD = input.nextInt();
+		int BD = input.nextInt();
+		
+		if(FD == BD)
+			System.out.println("Thank God");
+		else if(FD>BD){
+		int a = FD - BD;
+		}
+		else if(BD>FD){
+			int b = BD - FD;
+		}
+	}
+}

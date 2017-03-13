@@ -1,0 +1,5 @@
+
+public class GeometricComparator implements java.util.Comparator<GeometricObject>,java.io.Serializable
+{
+	
+}

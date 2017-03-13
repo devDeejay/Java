@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class LinkedHashSet {
+
+	public static void main(String[] args) {
+		//LinkedHashSet extends HashSet, But this also provides an ordering of the elements.
+		LinkedHashSet<String> al=new LinkedHashSet<String>();  
+		set.
+	}
+
+}

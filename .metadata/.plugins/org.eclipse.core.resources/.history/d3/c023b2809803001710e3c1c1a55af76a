@@ -1,0 +1,13 @@
+package programs;
+
+import java.util.ArrayList;
+
+public class MinimumVectorProduct {
+
+	public static void main(String[] args) {
+		int n = input.nextInt();
+		ArrayList<Integer> vector1 = new ArrayList<>();
+		
+	}
+
+}

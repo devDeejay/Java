@@ -1,0 +1,15 @@
+package programs;
+
+import java.util.Scanner;
+
+public class Gaurav {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Input N and K");
+		int N = input.nextInt();
+		int K = input.nextInt();
+		
+	}
+
+}
