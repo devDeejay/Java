@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class stringReverseUsingStacks {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String s = input.nextLine();
+		int len = s.length();
+		for (int i = 0; i < s.length(); i++) {
+			char c = s.charAt(i);
+			System.out.print(c);
+		}
+		
+		CustomStack myStack = new CustomStack(len);
+		for (int i = 0; i < s.length(); i++) {
+			char c = s.charAt(i);
+			myStack.push(c);
+		}
+		
+		for (int i = 0; i < s.length(); i++) {
+			System.out.println(myStack.pop());
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package binaryIO;
+
+import java.io.*;
+import java.util.*;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(new File("input5.txt"));
+	}
+
+}

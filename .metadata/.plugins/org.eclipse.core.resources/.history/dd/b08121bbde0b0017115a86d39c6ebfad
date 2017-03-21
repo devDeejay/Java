@@ -1,0 +1,23 @@
+
+public class CustomQueueClass {
+	private long[] queue;
+	private int front;
+	private int rear;
+	private int nItems;
+	private int maxSize;
+	
+	public CustomQueueClass(int s){
+		maxSize = s;
+		queue = new long[maxSize];
+		front = 0;
+		rear = -1;
+		nItems = 0;
+	}
+	
+	public void insert(long j){
+		if(!(rear == maxSize - 1))
+			queue[rear++] = j;
+		else
+			rear = -1;
+	}
+}

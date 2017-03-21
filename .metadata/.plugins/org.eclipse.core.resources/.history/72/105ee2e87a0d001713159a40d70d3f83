@@ -1,0 +1,14 @@
+package programs;
+
+import java.util.*;
+
+public class CountingSheeps {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Set<Integer>
+		int n = input.nextInt();
+		String s = String.valueOf(n);
+	}
+
+}

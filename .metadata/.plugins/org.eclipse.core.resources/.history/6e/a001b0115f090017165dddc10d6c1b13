@@ -1,0 +1,39 @@
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeMap;
+
+public class CountOccurenceOfWords {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String text = input.nextLine();
+		Map<String,Integer> map = new TreeMap<>();
+		String[] words = text.split("\\s+");
+		
+		for (int i = 0; i < words.length; i++) {
+			String key = words[i].toLowerCase();
+			if(key.length() > 0)
+				if(!map.containsKey(key))
+					map.put(key,1);
+				else{
+					int value = map.get(key);
+					value++;
+					map.put(key,value);
+				}
+		}
+		
+		System.out.println("Input Charecter Sequence");
+		Map<String ,Integer> charecterMap = new TreeMap<>();
+		String s = input.nextLine();
+		for (int i = 0; i < s.length(); i++){
+			char c = s.charAt(i);
+			Integer value1;
+			if(!charecterMap.containsKey(c))
+				map.put(String.valueOf(c) , 1);
+			else
+				value1 = map.get(c);
+			value1++;
+			map.put(String.valueOf(c), value1);
+		}
+	}
+}

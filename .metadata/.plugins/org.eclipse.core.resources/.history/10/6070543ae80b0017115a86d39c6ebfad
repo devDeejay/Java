@@ -1,0 +1,8 @@
+
+public class QueueApp {
+
+	public static void main(String[] args) {
+		customQueueClass myQueue = new customQueueClass;
+	}
+
+}

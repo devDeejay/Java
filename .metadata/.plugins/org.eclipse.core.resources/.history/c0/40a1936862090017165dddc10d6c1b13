@@ -1,0 +1,43 @@
+import java.util.LinkedHashMap;
+import java.util.*;
+
+public class CountOccurenceOfWords {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		/*String text = input.nextLine();
+		Map<String,Integer> map = new TreeMap<>();
+		String[] words = text.split("\\s+");
+		
+		for (int i = 0; i < words.length; i++) {
+			String key = words[i].toLowerCase();
+			if(key.length() > 0)
+				if(!map.containsKey(key))
+					map.put(key,1);
+				else{
+					int value = map.get(key);
+					value++;
+					map.put(key,value);
+				}
+		}
+		System.out.println(map);
+		*/
+		
+		System.out.println("Input Charecter Sequence");
+		Map<String ,Integer> charecterMap = new HashMap<>();
+		String s = input.nextLine();
+		for (int i = 0; i < s.length(); i++){
+			char c = s.charAt(i);
+			String s2 = String.valueOf(c);
+			Integer value1;
+			if(charecterMap.containsKey(s2)){
+				value1 = charecterMap.get(s2);
+				value1++;
+				charecterMap.put(s2, value1);
+			}
+			else
+				charecterMap.put(s2,1);
+		}
+		TreeMap<String, Integer> sortedMap = sortMapByValue(map);  
+		System.out.println(charecterMap);
+	}
+}

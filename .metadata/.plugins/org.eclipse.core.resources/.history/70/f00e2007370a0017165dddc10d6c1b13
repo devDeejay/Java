@@ -1,0 +1,41 @@
+
+public class AnalysingTimeForSearching {
+
+	public static void main(String[] args) {
+		
+		long startTime = System.currentTimeMillis();
+		int key = 77777777;
+		int[] arr = new int[99999999];
+		for(int i = 0;i<99999999;i++){
+			arr[i] = i;
+		}
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i] == key){
+				break;
+			}
+		}
+		long endTime = System.currentTimeMillis();
+		binarySearch(arr,key);
+		System.out.println("end");
+	}
+
+	private static int binarySearch(int[] list, int key) {
+		System.out.println("called");
+		int low = 0; 
+		int high = list.length - 1;
+		long startTime = System.currentTimeMillis();
+		while (high >= low){			 
+			int mid = (low + high) / 2;
+			if (key < list[mid]) 
+				high = mid-1;
+			else if (key == list[mid])
+				return mid;
+			else
+				low = mid + 1;
+		}
+		long endTime = System.currentTimeMillis();
+		System.out.println("Time for Linear Search "+( endTime - startTime ));
+		return -low - 1;
+	}
+
+}

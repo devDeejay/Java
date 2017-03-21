@@ -1,8 +1,0 @@
-
-public class Vectors {
-
-	public static void main(String[] args) {
-		//Vectors are same as Arraylist, it just provides advanced methods for Synchronisation
-	}
-
-}

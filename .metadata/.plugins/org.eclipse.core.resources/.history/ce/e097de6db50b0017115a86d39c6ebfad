@@ -1,0 +1,19 @@
+
+public class CustomStack {
+	private int maxSize;
+	private long[] stackArray;
+	private int top;
+	
+	public CustomStack(int s){
+		maxSize = s;
+		stackArray = new long[maxSize];
+		top = -1;
+	}
+	
+	public void push(long j){
+		stackArray[++top] = j;
+	}
+	public void pop(){
+		stackArray[++top] = j;
+	}
+}

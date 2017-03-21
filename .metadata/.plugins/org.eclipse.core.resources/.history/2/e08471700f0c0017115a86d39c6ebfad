@@ -1,0 +1,7 @@
+public class Link{
+	public int iData;
+	public double dData;
+	public Link next;
+	
+	public 
+}

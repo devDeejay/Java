@@ -1,0 +1,11 @@
+
+public class CustomQueueClass {
+
+	public static void main(String[] args) {
+		private int first,last;
+		private long[] queue;
+		
+		
+	}
+
+}

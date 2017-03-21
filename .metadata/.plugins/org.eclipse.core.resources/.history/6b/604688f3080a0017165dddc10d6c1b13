@@ -1,0 +1,14 @@
+
+public class PerformanceTest {
+
+	public static void main(String[] args) {
+		getTime(1000);
+		
+		
+	}
+
+	private static void getTime(long n) {
+	
+		long startTime = System.currentTimeMillis();
+	}
+}

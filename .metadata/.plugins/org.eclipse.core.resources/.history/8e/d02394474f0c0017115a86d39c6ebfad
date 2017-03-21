@@ -1,0 +1,17 @@
+package learningJava;
+
+import java.util.Scanner;
+
+public class TriangularNumbers {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int n = input.nextInt();
+		int nextNum,num = 0;
+		for (int i = 1; i < n; i++) {
+			nextNum = i + num;
+			System.out.println(nextNum);
+		}
+	}
+
+}

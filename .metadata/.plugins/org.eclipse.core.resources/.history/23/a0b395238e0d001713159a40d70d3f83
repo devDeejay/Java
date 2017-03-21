@@ -1,0 +1,35 @@
+package programs;
+
+import java.util.*;
+
+public class test {
+
+  public static void main(String[] args) {
+	  HashMap<Integer,Integer> map = new HashMap<>();
+	  Scanner input = new Scanner(System.in);
+	  
+	  map.put(1, 0);
+	  map.put(2, 0);
+	  map.put(3, 0);
+	  map.put(4, 0);
+	  map.put(5, 0);
+	  map.put(6, 0);
+	  map.put(7, 0);
+	  map.put(8, 0);
+	  map.put(9, 0);
+	  map.put(0, 0);
+
+		
+	  
+	  int number = input.nextInt();
+	  LinkedList<Integer> stack = new LinkedList<Integer>();
+	  while (number > 0) {
+	       hm.put((number % 10), 1);
+	      number = number / 10;
+	  }
+
+	  while (!stack.isEmpty()) {
+	      print(stack.pop());
+	  }
+  }
+}

@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class stringReverseUsingStacks {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String s = input.nextLine();
+		int len = s.length();
+	}
+
+}

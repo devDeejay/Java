@@ -1,0 +1,7 @@
+
+public class CustomQueueClass {
+	private long[] queue;
+	private int front;
+	private int last;
+	private int nItems;
+}

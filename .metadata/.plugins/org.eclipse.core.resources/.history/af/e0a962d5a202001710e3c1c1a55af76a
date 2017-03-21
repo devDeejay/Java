@@ -1,8 +1,0 @@
-
-public class Comparator implements java.util.Comparator<T> {
-
-	public int compare(T arg0, T arg1) {
-		
-		return 0;
-	}
-}

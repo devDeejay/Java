@@ -1,0 +1,9 @@
+
+public class CustomQueueClass {
+	long[] queue;
+	private int front = 0;
+	int last = queue.length - 1;
+	
+	}
+
+}

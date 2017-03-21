@@ -1,9 +1,0 @@
-
-public class GeometricComparator implements java.util.Comparator<GeometricObject> {
-
-	@Override
-	public int compare(T element1, T element2) {
-		
-		return 0;
-	}
-}
