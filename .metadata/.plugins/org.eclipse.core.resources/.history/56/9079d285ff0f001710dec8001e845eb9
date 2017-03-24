@@ -1,0 +1,34 @@
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class PlusMinus {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		DecimalFormat f = new DecimalFormat("##.000000");
+		
+		double size = input.nextInt();
+		double pCount = 0,nCount = 0,zCount = 0;
+		int[] arr = new int[(int) size];
+		for (int i : arr) {
+			if(i>0)
+				pCount++;
+			else if( i < 0)
+				nCount++;
+			else if(i == 0)
+				zCount++;
+		}
+		double p = pCount/size;
+		String p1 = f.format(p);
+		double n = pCount/size;
+		String p2 = f.format(n);
+		double z = pCount/size;
+		String p3 = f.format(z);
+		
+		System.out.println(p1);
+		System.out.println(p2);
+		System.out.println(p3);
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class PlusMinus {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		long size = input.nextInt();
+		long pCount = 0,nCount = 0,zCount = 0;
+		int[] arr = new int[(int) size];
+		for (int i : arr) {
+			if(i>0)
+				pCount++;
+			else if( i < 0)
+				nCount++;
+			else if(i == 0)
+				zCount++;
+		}
+		long p = pCount/size;
+		long n = nCount/size;
+		long z = zCount/size;
+		
+		System.out.println(p);
+		System.out.println(n);
+		System.out.println(z);
+		
+	}
+
+}

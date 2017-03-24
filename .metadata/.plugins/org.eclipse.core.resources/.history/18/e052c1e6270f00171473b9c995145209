@@ -1,0 +1,12 @@
+package programs;
+
+import java.util.*;
+
+public class test {
+	public static void main(){
+		Scanner input = new Scanner(System.in);
+		String s = input.next();
+		StringBuilder rev = new StringBuilder(s);
+		System.out.println(rev.reverse().toString());
+	}
+}

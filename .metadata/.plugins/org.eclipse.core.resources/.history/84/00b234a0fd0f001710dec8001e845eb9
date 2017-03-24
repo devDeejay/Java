@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class SumOfArrays {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int size = input.nextInt();
+		for (int i = 0; i < size; i++) {
+			
+		}
+	}
+
+}

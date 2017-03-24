@@ -1,0 +1,15 @@
+package programs;
+
+import java.util.*;
+import java.util.Scanner;
+
+public class RevengeOfPancakes {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String s = input.next();
+		for (int i = 0; i < s.length(); i++) {
+			char c = s.charAt(i);
+		}
+	}//End of Method
+}//End of Main Class

@@ -1,0 +1,16 @@
+package programs;
+
+import java.util.Scanner;
+
+public class Test1 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int[] arr  = {3,5,7,9,21,25};
+		int sum = 0;
+		for (int i : arr) {
+			if(!(i == 7))
+				sum += i;
+		}
+		System.out.println(sum);
+	}
+}

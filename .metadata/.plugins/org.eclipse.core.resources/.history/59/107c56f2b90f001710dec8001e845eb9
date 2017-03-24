@@ -1,0 +1,26 @@
+package programs;
+
+import java.util.Scanner;
+
+public class Test1 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int[] arr  = {3,5,7,9,21,25};
+		int sum = 0;
+		for (int i : arr) {
+			checkDigit(i);
+			sum += i;
+		}
+		System.out.println(sum);
+	}
+
+	private static void checkDigit(int i) {
+		while(i!=0){
+			i = i%10;
+			count = 0;
+			count ++;
+		}
+		if count > 1;
+	}
+
+}

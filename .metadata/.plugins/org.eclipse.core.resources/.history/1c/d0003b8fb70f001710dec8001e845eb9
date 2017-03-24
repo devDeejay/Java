@@ -1,0 +1,10 @@
+package programs;
+
+public class Test1 {
+	static int sum = 0;
+	static boolean flag = true;
+	public static void main(String[] args) {
+		
+	}
+
+}

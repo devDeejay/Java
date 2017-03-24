@@ -1,0 +1,12 @@
+package programs;
+
+public class Test1 {
+	boolean flag = true;
+	public static void main(String[] args) {
+		if(flag)
+			System.out.println(oddSum);
+		else
+			System.out.println(evenSum);
+		}
+	}
+}

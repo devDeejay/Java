@@ -1,0 +1,7 @@
+package programs;
+
+import java.util.*;
+
+public class test {
+	Scanner input = new Scanner(System.in);
+}

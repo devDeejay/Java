@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class TextEncryption {
+
+	public static void main(String[] args) {
+		Scanner input =  new Scanner(System.in);
+		String s = input.nextLine();
+		String newS = s.replaceAll("\\s","");
+		long L = newS.length();
+		System.out.println(L);
+		double col = Math.ceil(Math.sqrt(L));
+		double low = Math.floor(Math.sqrt(L));
+		System.out.println(col +" "+ low);
+		String ans = "";
+		int i = 0;
+		StringBuilder sb = new StringBuilder();
+		while(true){
+			while(i <= L){
+				char c = newS.charAt(i);
+				i+=col;
+			}
+			ans += c;
+		}
+		i = 1;
+		ans += ' ';
+		System.out.println(ans);
+	}
+}

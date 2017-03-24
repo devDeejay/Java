@@ -1,0 +1,22 @@
+package programs;
+
+public class Test1 {
+	static int sum = 0;
+	static boolean flag = true;
+	public static void main(String[] args) {
+		if(flag)
+			System.out.println(oddSum());
+		else
+			System.out.println(evenSum());
+		}
+	private static char[] evenSum() {
+		for (int i = 0; i < 100; i++) {
+			sum += 1;
+		}
+	}
+	private static char[] oddSum() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	}
+}
