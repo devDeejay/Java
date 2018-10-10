@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;Comparator.java&apos; to &apos;GeometricComparator.java&apos;&#x0D;&#x0A;- Original project: &apos;DataStructures&apos;&#x0D;&#x0A;- Original element: &apos;Comparator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;GeometricComparator.java&apos;" description="Rename compilation unit &apos;Comparator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Comparator.java" name="GeometricComparator.java" references="false" stamp="1488828687800" version="1.0"/>
-</session>

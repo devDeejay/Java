@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring clone="true" comment="Infer generic type arguments on &apos;Learning Java&apos;&#x0D;&#x0A;- Original project: &apos;Learning Java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     learningJava.MainComparatorClass.java&#x0D;&#x0A;- Assume clone() returns an instance of the receiver type&#x0D;&#x0A;- Leave unconstrained type arguments raw" description="Infer generic type arguments" element1="/src&lt;learningJava{MainComparatorClass.java" flags="6" id="org.eclipse.jdt.ui.infer.typearguments" leave="true" stamp="1485773826058" version="1.0"/>
-</session>

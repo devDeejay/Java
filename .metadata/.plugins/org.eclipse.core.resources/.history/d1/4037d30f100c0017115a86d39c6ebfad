@@ -1,8 +1,0 @@
-
-public class LinkList {
-	private Link first;
-	
-	public void LinkList(){
-		first = null;
-	}
-}

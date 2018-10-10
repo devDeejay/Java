@@ -1,9 +1,0 @@
-package programs;
-
-import java.util.*;
-
-public class test {
-	Scanner input = new Scanner(System.in);
-	String s = new StringBuilder(input.next()).reverse().toString();
-	Sytem.out.println(s);
-}

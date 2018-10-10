@@ -1,6 +1,0 @@
-
-public class CustomStack {
-	private int maxSize;
-	private long[] stackArray;
-	private int top;
-}

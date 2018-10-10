@@ -1,9 +1,0 @@
-package learningJava;
-
-public class TowerOfHanoi {
-	static int nDisks = 3;
-	public static void main(String[] args) {
-		
-	}
-
-}
