@@ -13,7 +13,7 @@ public class Solution {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             int num = Integer.parseInt(br.readLine().trim());
-            Object o;// Must be used to hold the reference of the instance of the class Solution.Inner.Private
+            Object o;// Must be used to hold the reference of the instance of the class MaxSortInKSteps.Inner.Private
 
             o = new Inner().new Private();
             ((Inner.Private) o).powerof2(num);
@@ -31,7 +31,7 @@ public class Solution {
         }
     }//end of Inner
 
-}//end of Solution
+}//end of MaxSortInKSteps
 
 class DoNotTerminate { //This class prevents exit(0)
 
