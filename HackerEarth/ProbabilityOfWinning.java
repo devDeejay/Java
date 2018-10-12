@@ -34,23 +34,22 @@ public class ProbabilityOfWinning {
     }
 
     private static double calculateCombination(int n, int r) {
-        long numerator = 1, denominator = 1;
-        if (r > n - r) {
-            r = n - r;
-        }
-        for (long i = 1L; i <= r; ++i) {
-            denominator *= i;
-        }
-        for (long i = n - r + 1L; i <= n; ++i) {
-            numerator *= i;
-        }
 
-        if (denominator != 0) {
-            return numerator / denominator;
+        return calculateFactorial(n) / ( (calculateFactorial(n - r)) * (calculateFactorial(r)));
+
+    }
+
+    private static double calculateFactorial(int n) {
+        if (n == 0) {
+            return 1;
         }
-
-        return 0;
-
+        else {
+            int factorial = 1;
+            for (int i = 1; i <= n; i++) {
+                factorial *= i;
+            }
+            return factorial;
+        }
     }
 
     private static BigDecimal truncateDecimal(double x, int numberOfDecimals) {
