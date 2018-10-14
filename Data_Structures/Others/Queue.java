@@ -1,3 +1,5 @@
+package Java.Data_Structures.Others;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.PriorityQueue;

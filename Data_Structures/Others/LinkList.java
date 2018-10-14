@@ -1,3 +1,4 @@
+package Java.Data_Structures.Others;
 
 public class LinkList {
 	private Link first;

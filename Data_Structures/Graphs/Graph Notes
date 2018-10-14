@@ -1,0 +1,139 @@
+* Graphs are 
+    Non Linear Data Structures
+    Used to model a lot of real work systems and application
+    
+* A graph is like a tree where each node is connected to other nodes but a Tree follows some set of rules dictating the connection among nodes in a Tree.
+
+    - If there are N Nodes, there must be exactly N-1 edges
+    
+    - All Nodes must be reachable, and from Root to a node there should be only one unique Path.
+    
+    - Tree is only a special kind of Graph.
+
+    - Study of Graph is called Graph Theory
+    
+        A graph G is an ordered pair of set V of vertices and a set E of edges.
+        
+            G = (V, E)
+            
+            Ordered pair (a,b) != (b,a) {if a != b}
+            
+            Oredered pair is written as (a, b, c, d)
+            Unoredered pair is written as {a, b, c, d}
+            
+* Vertices :
+
+    V = {v1, v2, v3, v4, v5} Set of verticies of a Graph
+
+* Edges
+
+    - Directed Edge
+
+        (u, v) Goes from u -> b
+        (v, u) Goes from v -> u
+        
+            {The above is an example of parallel edges between two nodes}
+            
+            Digraphs is graph having directed edges / Ordered Pairs
+    
+    - Undirected Edge
+    
+        Undirected Edge makes a two way connection, Unoredred pairs 
+        
+        Edges = {
+            {v1, v2}, {v2, v3}, {v3,v5}, {v6, v7}
+        }
+        
+# We will focus on Graphs which just have directed or just Undirected edges, not mixed of 2.
+
+# Examples Of Graphs :
+
+        # Social Netowrk (Unweighted, Undirected Graph)
+
+            -> Like Facebook is an undirected Graph, you have a friend, he has a friend too. Its MUTUAL, hence undirected.
+            -> Suggesting Friends,
+                Suggesting Friends of Friends
+            -> Counting the number of Mutual Friends
+
+        # Internet Web Pages Links (Unweighted, Directed Graph)
+            
+            -> You have directed links from one page to another, mutual links is not necessary.
+            -> You link wikepedia doesnt mean Wikepedia will also link you too.
+            -> This is a directed edge situation.
+            -> Web Crawling is Graph Traversal, Traversing all nodes of a graph from one node. We have various Graph Traversal algorithms.
+            
+        # Maps of Highway / Cities
+            
+            -> Intercity Road Network  (Weighted, Undirected Graph)
+            
+                - You have to assign weights to the connecting edges so as to show the real world distance in the Graph.
+                - So as to find the minimum distances between two nodes / cities, you would be required to traverse the path where the cost of reaching the other node is minimum, which help us finding the best possible path between source and destination.
+            
+            -> Intracity Maps, (Weighted, Directed Graphs) 
+                * As there are many One ways too existing in the cities.
+
+# Graph Properties 
+
+    |V| - Number of vertices
+    |E| - Number of edges
+
+    - Edges can be directed / undirected
+    - Edges can have weights i.e. weighted graphs
+    
+    - Edge has self loop if you have only one Node for an edge, ie, it is self connecting.
+    - Like for example, a web page can have a link to itself.
+    
+    - There can be multi edge nodes, for example a Flight Ticketing System.
+    - In a simple Directed graph (i.e. No Self Loops or Multi-edges)
+    - One can have a maximum of N ( N - 1 ) Edges.
+    - Similarly for Undirected Graph, one can have maximum of only N ( N - 1) / 2 Edges.
+    - A Graph is called DENSE if number of edges is close to max possible edges, opposit is called SPARSE.
+    - We store a Dense graph in "Adjacency Matrix" and for Sparse we use "Adjacency List".
+    
+    PATH : 
+    
+        A sequence of vertices where each adjacent pair is connected by an Edge.
+        
+        A SIMPLE PATH is one in which no VERTICES or EDGES are repeated. {A , B, F, H}
+        
+    WALK : 
+    
+        When VERTICS and EDGES are repeated, i.e. a PATH is a walk with no repeated EDGES and NODES.
+        
+    TRAIL :
+    
+        A walk is a TRAIL if vertices can be repeated but EDGES can't be repeated.
+
+    STRONGLY CONNETED GRAPH :
+    
+        When there exists a PATH between any of the two VERTEX. Keep in mind for DIRECTED GRAPH there might be a path between A and B but not from B to A, and hence don't confuse that one with DIRECTED GRAPH.
+        
+        
+    CYCLE IN A GRAPH :
+    
+        A walk is closed walk if it starts and ends at same vertex.
+        Its not a cycle really, A cycle is a term used for Simple cycle where no other vertex except Start/End vertex is repeated.
+        
+    
+    ACYCLIC GRAPH (AG): 
+    
+        A Graph with no cycle is called Acyclic Graph.
+        
+        - Directed AG {DAG}
+        - Undirect AG 
+        
+        
+# Graph Representation In Memory :
+
+    * IDEA 1 : 
+        
+        - The simplest IDEA is Two create Two list, one to store the Verticies and other to store Edges Objects.
+        
+        - An Edge Object contains the reference to Start and End Verticies it is connecting, for undirected Graph the order of the edges need not be stored, but for Directed Graph the edges direction needs to be stored too. Direction is stored by assigning the correct Start and End vertex for an EDGE object. Again, for Undirected graph START and END vertex can be swapped, and it won't change the meaning.
+        
+        - For WEIGHTED GRAPH, we just need to add one more field to the EDGE Object i.e. the Weight of that edge.
+        
+        
+
+    
+    

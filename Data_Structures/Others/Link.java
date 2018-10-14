@@ -1,3 +1,5 @@
+package Java.Data_Structures.Others;
+
 public class Link{
 	public int iData;
 	public double dData;

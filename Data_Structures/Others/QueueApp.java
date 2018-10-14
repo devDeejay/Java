@@ -1,3 +1,5 @@
+package Java.Data_Structures.Others;
+
 import java.util.Scanner;
 
 public class QueueApp {

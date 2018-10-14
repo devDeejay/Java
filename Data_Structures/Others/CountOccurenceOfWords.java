@@ -1,3 +1,5 @@
+package Java.Data_Structures.Others;
+
 import java.util.LinkedHashMap;
 import java.util.*;
 //This program keeps the frequency of each word in a map.
