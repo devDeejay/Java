@@ -1,4 +1,9 @@
-* Graphs are 
+* Graphs are abstract Data Type {ADT : Made up of primitive data types arranged in some way in memory (This is called Data structures) which allows various operations on it, which makes it Abstract Data Type} which implements the concept of Graphs from Mathematics.
+
+A Graph is simply a collection of nodes connected by edges, This is not a linear Data structure hence its implementation is quite different.
+
+ADT = DS + Operation
+
     Non Linear Data Structures
     Used to model a lot of real work systems and application
     
@@ -63,7 +68,7 @@
             -> Web Crawling is Graph Traversal, Traversing all nodes of a graph from one node. We have various Graph Traversal algorithms.
             
         # Maps of Highway / Cities
-            
+            -> Set of cities connected by rail route.
             -> Intercity Road Network  (Weighted, Undirected Graph)
             
                 - You have to assign weights to the connecting edges so as to show the real world distance in the Graph.
@@ -71,8 +76,15 @@
             
             -> Intracity Maps, (Weighted, Directed Graphs) 
                 * As there are many One ways too existing in the cities.
+                
+        # Connection between Routers on Internet can be maintained by Graph. 
+        Graph Implements the Mathematical Definition of Graph.
 
 # Graph Properties 
+
+    V = {v0, v1, v2, v3, v4, v5 ...}
+    E = {e0, e1, e2, e3, e4, e5, e6 ...}
+    Hence, G = (V, E) or (E, V)
 
     |V| - Number of vertices
     |E| - Number of edges
@@ -90,38 +102,69 @@
     - A Graph is called DENSE if number of edges is close to max possible edges, opposit is called SPARSE.
     - We store a Dense graph in "Adjacency Matrix" and for Sparse we use "Adjacency List".
     
-    PATH : 
+# Graph Terminologies >>>
     
-        A sequence of vertices where each adjacent pair is connected by an Edge.
+    - DEGREE : 
+    
+        Degree of a node is the number of Adjacent / Connected Nodes to it. Node with 0 degree is an ISOLATED Node.
+    
+    - PATH : 
+    
+        - Path is way from One Node to another which consists of Edges connecting one after the other from starting node to another node.
+        - A sequence of vertices where each adjacent pair is connected by an Edge.
+        - A SIMPLE PATH is one in which no VERTICES or EDGES are repeated. {A , B, F, H}
         
-        A SIMPLE PATH is one in which no VERTICES or EDGES are repeated. {A , B, F, H}
+        Types Of PATH : 
+            --> Closed Path when you come back to the starting Node, ie, STARTING NODE = DESTINATION NODE
+            --> SIMPLE PATH : Is a path which goes through all Distinct nodes, ie, none of the nodes in the way are repeated. But, the starting node can be equal to destination node. 
         
-    WALK : 
+    - WALK : 
     
         When VERTICS and EDGES are repeated, i.e. a PATH is a walk with no repeated EDGES and NODES.
         
-    TRAIL :
+    - TRAIL :
     
         A walk is a TRAIL if vertices can be repeated but EDGES can't be repeated.
 
-    STRONGLY CONNETED GRAPH :
+    - STRONGLY CONNETED GRAPH :
     
         When there exists a PATH between any of the two VERTEX. Keep in mind for DIRECTED GRAPH there might be a path between A and B but not from B to A, and hence don't confuse that one with DIRECTED GRAPH.
-        
-        
-    CYCLE IN A GRAPH :
+          
+    - CYCLE IN A GRAPH :
     
         A walk is closed walk if it starts and ends at same vertex.
         Its not a cycle really, A cycle is a term used for Simple cycle where no other vertex except Start/End vertex is repeated.
         
-    
-    ACYCLIC GRAPH (AG): 
+    - ACYCLIC GRAPH (AG): 
     
         A Graph with no cycle is called Acyclic Graph.
         
         - Directed AG {DAG}
         - Undirect AG 
         
+    - COMPLETE GRAPH / CLIQUE / UNIVERSAL GRAPH
+    
+        A simple graph in which there is an edge between every pair of NODES.
+
+    - NULL Graph
+        A graph without edge is NULL GRAPH.
+        
+    - SUB GRAPH 
+        A graph G' = (V', E')
+        If V' is a subset of V and E' is a subset of E thus all vertices of G' must be in G.
+        
+    - DIRECTED GRAPH : 
+
+        Directed graph consists of Arcs. This means that from One Node to another there is a directed edge / arc which is UNIDIRECTIONAL.
+
+    - UNDIRECTED GRAPH :
+
+    - MULTI-GRAPH :
+
+        If there are multiple edges connecting the same nodes and there are loops in the Graph.
+
+# A Tree is a graph without any CYCLE. There is a simple path between any two nodes. If T is finite tree with m nodes then T will have m-1 edges. This will be a Labelled graph.
+
         
 # Graph Representation In Memory :
 
@@ -133,7 +176,21 @@
         
         - For WEIGHTED GRAPH, we just need to add one more field to the EDGE Object i.e. the Weight of that edge.
         
+        ############################ IMPLEMENTATION ##################################       
+       
+    Graph Data Structure : 
+        Since its not a linear DS, it gets a lil more complex. There are 3 ways to represent a graph 
+            1. Adjacency Matrix 
+            
+                Let's gather the information we need to store for a Graph G.
+                    The number of vertices
+                    The number of edges
+                    Which edge connects which two Nodes :
+                        For this lets take a 2D Array
+                        In which the 1,0 is stored that shows whether there is an edge betweeen two nodes.
+                    
+            
+                
+                
+                
         
-
-    
-    
