@@ -1,3 +1,15 @@
+Graph Data Structure : Since its not a linear DS, it gets a lil more complex.
+        There are 3 ways to represent a graph
+            1. Adjacency Matrix
+
+                Let's gather the information we need to store for a Graph G.
+                    The number of vertices
+                    The number of edges
+                    Which edge connects which two Nodes :
+                        For this lets take a 2D Array
+                        In which the 1,0 is stored that shows whether there is an edge betweeen two nodes.
+
+
 * Graphs are abstract Data Type {ADT : Made up of primitive data types arranged in some way in memory (This is called Data structures) which allows various operations on it, which makes it Abstract Data Type} which implements the concept of Graphs from Mathematics.
 
 A Graph is simply a collection of nodes connected by edges, This is not a linear Data structure hence its implementation is quite different.
@@ -17,9 +29,9 @@ ADT = DS + Operation
 
     - Study of Graph is called Graph Theory
     
-        A graph G is an ordered pair of set V of vertices and a set E of edges.
+        A graph G is an ordered pair of set toalNumberOfVertices of vertices and a set E of edges.
         
-            G = (V, E)
+            G = (toalNumberOfVertices, E)
             
             Ordered pair (a,b) != (b,a) {if a != b}
             
@@ -28,7 +40,7 @@ ADT = DS + Operation
             
 * Vertices :
 
-    V = {v1, v2, v3, v4, v5} Set of verticies of a Graph
+    toalNumberOfVertices = {v1, v2, v3, v4, v5} Set of verticies of a Graph
 
 * Edges
 
@@ -82,11 +94,11 @@ ADT = DS + Operation
 
 # Graph Properties 
 
-    V = {v0, v1, v2, v3, v4, v5 ...}
+    toalNumberOfVertices = {v0, v1, v2, v3, v4, v5 ...}
     E = {e0, e1, e2, e3, e4, e5, e6 ...}
-    Hence, G = (V, E) or (E, V)
+    Hence, G = (toalNumberOfVertices, E) or (E, toalNumberOfVertices)
 
-    |V| - Number of vertices
+    |toalNumberOfVertices| - Number of vertices
     |E| - Number of edges
 
     - Edges can be directed / undirected
@@ -150,8 +162,8 @@ ADT = DS + Operation
         A graph without edge is NULL GRAPH.
         
     - SUB GRAPH 
-        A graph G' = (V', E')
-        If V' is a subset of V and E' is a subset of E thus all vertices of G' must be in G.
+        A graph G' = (toalNumberOfVertices', E')
+        If toalNumberOfVertices' is a subset of toalNumberOfVertices and E' is a subset of E thus all vertices of G' must be in G.
         
     - DIRECTED GRAPH : 
 
@@ -165,6 +177,25 @@ ADT = DS + Operation
 
 # A Tree is a graph without any CYCLE. There is a simple path between any two nodes. If T is finite tree with m nodes then T will have m-1 edges. This will be a Labelled graph.
 
+
+# Problems in Graph Processing Problems
+
+    Path : Is there a path betweeen s and t ?
+    Shorted Path : What is the shortest path between s and t?
+
+    Cycle : is there a cycle in the graph?
+    Euler Tour : Is there a cycle that uses each EDGE exactly once ?
+    Hamilton Tour : Is there a cycle that uses each VERTEX exactly once ?
+
+    Connectivity : is there a way to connect all the vertices ?
+    MST : best way to do the above task ?
+    BioConnectivity : is there a vertex whose removal disconnects the graph?
+
+    Planarity : Can we draw a graph in the plane with no crossing edges?
+    Graph Isomorphism : Two adjacency list represent the same graph?
+
+    Which of these problems are easy? difficult? intractable?
+
         
 # Graph Representation In Memory :
 
@@ -172,25 +203,204 @@ ADT = DS + Operation
         
         - The simplest IDEA is Two create Two list, one to store the Verticies and other to store Edges Objects.
         
-        - An Edge Object contains the reference to Start and End Verticies it is connecting, for undirected Graph the order of the edges need not be stored, but for Directed Graph the edges direction needs to be stored too. Direction is stored by assigning the correct Start and End vertex for an EDGE object. Again, for Undirected graph START and END vertex can be swapped, and it won't change the meaning.
+        -  An Edge Object contains the reference to Start and End Vertices it is connecting to, for undirected Graph the order of the edges need not be stored,
+           but for Directed Graph the edges direction needs to be stored too.
+           Direction is stored by assigning the correct Start and End vertex for an EDGE object.
+           Again, for Undirected graph START and END vertex can be swapped, and it won't change the meaning.
         
         - For WEIGHTED GRAPH, we just need to add one more field to the EDGE Object i.e. the Weight of that edge.
-        
-        ############################ IMPLEMENTATION ##################################       
-       
-    Graph Data Structure : 
-        Since its not a linear DS, it gets a lil more complex. There are 3 ways to represent a graph 
-            1. Adjacency Matrix 
-            
-                Let's gather the information we need to store for a Graph G.
-                    The number of vertices
-                    The number of edges
-                    Which edge connects which two Nodes :
-                        For this lets take a 2D Array
-                        In which the 1,0 is stored that shows whether there is an edge betweeen two nodes.
-                    
-            
-                
-                
-                
-        
+
+    # IDEA 2 :
+
+        - Make Adjacency Matrix of (toalNumberOfVertices X toalNumberOfVertices), For each node which has adjacent vertice is assigned true / 1 or false / 0.
+        - For large Graphs, this approach fails as N^2 complexity for large data is crazy thing to have.
+
+    # IDEA 3 :
+
+        {
+
+            Prerequisite : BAG Data Structure
+
+            Imagine a black bag into which you put in items, and after inserting everything you want to retrive items,
+            here, you don't really care the order in which the items come out.
+
+            Code :
+
+                Bag Has 2 Operations :
+
+                    Insert()
+
+                        // Insert the items in the Linked List Or In some data structure for Fast Retrival and Insertion
+
+                    Draw()
+
+                        // Get a random number and retrive the element
+        }
+
+       Back to Idea 3 :
+
+        - Here you have Adjacency List, which is list of all nodes, and each node points to the Linked List / BAG data structure,
+        which consists of all the adjacent nodes to that Node.
+
+        - This is most suitable way to go about Storing graphs in memory
+
+        - Real world Graphs are more SPARSE (high number of vertex, small average degree)
+
+
+
+############################ IMPLEMENTATION ##################################
+
+
+    1. Make The Simple Graph API.
+        - Constructors
+        - addEdge(v, w)
+        - adjacentNode(v)
+        - toalNumberOfVertices() : Number of vertices
+        - E() : Number of edges
+
+
+    2. Let's take a look at simple method of printing the Graph :
+
+        for (int v = 0; v < G.toalNumberOfVertices(); v++) {  // Iterate over all vertices
+            for (int w : G.adj(v)  // Get all adjacent nodes to that vertices
+                print(v + "-" + w);
+        }
+
+    Code :
+
+        Graph(int toalNumberOfVertices) {
+
+        }
+
+        Graph(InputStreamReader in) {
+
+        }
+
+        int toalNumberOfVertices() {
+
+            /*
+             * Return Number of Vertex
+             * */
+
+            return 0;
+        }
+
+        int E() {
+
+            /*
+             * Return Number of Edges
+             * */
+
+            return 0;
+        }
+
+        void addEdge(int v, int w) {
+
+            /*
+             * Adding a vertex v with weight w
+             * */
+
+        }
+
+        Iterable<Integer> adj(int toalNumberOfVertices) {
+
+            /*
+             * Returns all the adjacent Vertex
+             * */
+
+            return null;
+
+        }
+
+        @Override
+        public String toString() {
+
+
+            /*
+             * Returning our own version of toString() method
+             * */
+
+            StringBuilder s = new StringBuilder(toalNumberOfVertices() + " vertices" + E() + "edges");
+            for (int v = 0; v < toalNumberOfVertices(); v++) {
+                s.append("");
+            }
+
+            return "DJ's Graph";
+        }
+
+        public static int degree(Graph G, int toalNumberOfVertices) {
+
+            /*
+             *
+             * Calculates number of Connections of a particular Vertex 'toalNumberOfVertices' in a Graph 'G'
+             *
+             * */
+
+            int degree = 0;
+
+            for (int connection : G.adj(toalNumberOfVertices)) {
+
+                // For each connection of this node, we increment the degree value
+
+                degree++;
+            }
+
+            return degree;
+
+        }
+
+        public static int maxDegree(Graph G) {
+
+            /*
+             * Returns the degree of node which has maximum value of Degree in Graph 'G'
+             * */
+
+            int max = 0;
+            for (int toalNumberOfVertices = 0; toalNumberOfVertices < G.toalNumberOfVertices(); toalNumberOfVertices++) {
+
+                // For each vertex 'toalNumberOfVertices' call the previously defined method degree(G,toalNumberOfVertices)
+
+                if (degree(G, toalNumberOfVertices) > max) {
+                    max = degree(G, toalNumberOfVertices);
+                }
+            }
+
+            return max;
+
+        }
+
+        public static double averageDegree(Graph G) {
+
+            /*
+             * Formula for calculating averageDegree is  ( 2 * E / toalNumberOfVertices )
+             * */
+
+            return 2.0 * G.E() / G.toalNumberOfVertices();
+
+        }
+
+        public static double countSelfLoops(Graph G) {
+
+            /*
+             * Counts the number of Self Loops existing for all vertex 'toalNumberOfVertices' of Graph 'G'
+             * */
+
+            int count = 0;
+            for (int toalNumberOfVertices = 0; toalNumberOfVertices < G.toalNumberOfVertices(); toalNumberOfVertices++) {
+                for (int w : G.adj(toalNumberOfVertices)) {  // Iterating over all destination nodes from this node
+                    if (w == toalNumberOfVertices) { // If destination node is same as this node, it's a loop
+                        count++;
+                    }
+                }
+            }
+
+            return count / 2; // Every edge is counted twice
+        }
+
+######################################## END OF GRAPH API ########################################
+
+How to consume this API ?
+
+    See Graph Class that implements Idea 3 (mentioned in the comment on top)
+
+

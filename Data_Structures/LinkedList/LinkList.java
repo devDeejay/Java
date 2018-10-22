@@ -1,4 +1,4 @@
-package Data_Structures.LinkedList;
+package Java.Data_Structures.LinkedList;
 
 public class LinkList {
     Node currentNode;

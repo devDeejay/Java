@@ -1,134 +1,28 @@
-package Data_Structures.Graphs;
+package Java.Data_Structures.Graphs;
 
-import java.io.InputStreamReader;
+// Idea 3 Implementation of Graphs using Adjacency List
 
 public class Graph {
 
-    Graph(int V) {
+    private final int toalNumberOfVertices;  // Number of Vertices
+    private Bag<Integer>[] adjacencyBag;  // Array of bags which hold adjacent nodes to each vertex
 
-    }
+    public Graph(int toalNumberOfVertices) {
+        this.toalNumberOfVertices = toalNumberOfVertices;
+        adjacencyBag = new Bag[toalNumberOfVertices]; // We need toalNumberOfVertices bags for toalNumberOfVertices nodes
 
-    Graph(InputStreamReader in) {
-
-    }
-
-    int V() {
-
-        /*
-         * Return Number of Vertex
-         * */
-
-        return 0;
-    }
-
-    int E() {
-
-        /*
-         * Return Number of Edges
-         * */
-
-        return 0;
-    }
-
-    void addEdge(int v, int w) {
-
-        /*
-         * Adding a vertex v with weight w
-         * */
-
-    }
-
-    Iterable<Integer> adj(int V) {
-
-        /*
-         * Returns all the adjacent Vertex
-         * */
-
-        return null;
-
-    }
-
-    @Override
-    public String toString() {
-
-
-        /*
-         * Returning our own version of toString() method
-         * */
-
-        StringBuilder s = new StringBuilder(V() + " vertices" + E() + "edges");
-        for (int v = 0; v < V(); v++) {
-            s.append("");
+        for (int vertex = 0; vertex < toalNumberOfVertices; vertex++) {
+            adjacencyBag[vertex] = new Bag<>(); // Initializing bags for all vertices
         }
-
-        return "DJ's Graph";
     }
 
-    public static int degree(Graph G, int V) {
-
-        /*
-         * Calculates number of connections at a particular Vertex 'V' of a Graph 'G'
-         * */
-
-        int degree = 0;
-
-        for (int connection : G.adj(V)) {
-
-            // For each connection of this node, we increment the degree value
-
-            degree++;
-        }
-
-        return degree;
-
+    public void addEdge (int startNode, int endNode) {
+        adjacencyBag[startNode].add(endNode);
+        adjacencyBag[endNode].add(startNode);
     }
 
-    public static int maxDegree(Graph G) {
-
-        /*
-         * Returns the degree of node which has maximum value of Degree in Graph 'G'
-         * */
-
-        int max = 0;
-        for (int V = 0; V < G.V(); V++) {
-
-            // For each vertex 'V' call the previously defined method degree(G,V)
-
-            if (degree(G, V) > max) {
-                max = degree(G, V);
-            }
-        }
-
-        return max;
-
-    }
-
-    public static double averageDegree(Graph G) {
-
-        /*
-         * Formula for calculating averageDegree is  ( 2 * E / V )
-         * */
-
-        return 2.0 * G.E() / G.V();
-
-    }
-
-    public static double countSelfLoops(Graph G) {
-
-        /*
-         * Counts the number of Self Loops existing for all vertex 'V' of Graph 'G'
-         * */
-
-        int count = 0;
-        for (int V = 0; V < G.V(); V++) {
-            for (int w : G.adj(V)) {
-                if (w == V) {
-                    count++;
-                }
-            }
-        }
-
-        return count / 2;
+    public Iterable<Integer> getAdjacentNodesForVertex (int vertex) {
+        return adjacencyBag[vertex].getList();
     }
 
 }
