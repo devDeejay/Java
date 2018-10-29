@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d08c0ae-57cd-40dd-ab10-9148a197dc86" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/CompetetiveProgrammingConcepts/DynamicProgramming" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompetetiveProgrammingConcepts/DynamicProgrammingHarryPotterMinimalSmokeMixture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Graphs/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Graphs/Graph Notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Graphs/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Graphs/GraphAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/LinkedList/LinkList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/LinkedList/LinkedLists_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/LinkedList/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/AnalysingTimeForSearching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/BetterFibonacciNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/CountOccurenceOfWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/CustomPriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/CustomQueueClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/CustomStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/EvaluateExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/ExceptionHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/FindKeywordsInJavaFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/GeometricComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Iterators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Link.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkedHashMapProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkedHashSetProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkedListMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkedListandLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/PerformanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/QueueApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/SetListPerformance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Sets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/StackMainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/StackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/TreeeSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Vectors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/stringReverseUsingStacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerEarth/CandyPicking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerEarth/HarryPotterSpiders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerEarth/HeisenbergStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerEarth/MaxSortInKSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerEarth/ProbabilityOfWinning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Problem_Solving_Solutions/DynamicArray/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Problem_Solving_Solutions/HourGlass/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Problem_Solving_Solutions/ReverseArray/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Problem_Solving_Solutions/Rotation/Rotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/CamelCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PerfectEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PlayinWithString/StringExampless.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PlayinWithString/reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PlayinWithString/subsetSumSortOf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PlusMinus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/StairCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/SumOfArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/TextEncryption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/diagonalDifference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/timeInWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/AnalysingTimeForSearching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/ArraysClassMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BetterFibonacciNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BigDecimalSort/BigDecimalSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BufferedReader/KMaxSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BufferedReader/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BufferedReader/TwoDArraySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CalculateCombination/Combination_BigInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CalculateCombination/Combination_Long.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CheckPrime/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CountOccurenceOfWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CustomPriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CustomQueueClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CustomStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Data_Types/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/DateToDay/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/EvaluateExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/ExceptionHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/FindKeywordsInJavaFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/GeometricComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/HashsetToArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/InnerClass/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/IterateArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Iterators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/JavaCurrencyFormatter/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_Comparator/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_End_of_file/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_Loops_I/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_Sort_Comparator/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_Varargs_Simple_Addition/Add.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/KeysToList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Link.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkedHashMapProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkedHashSetProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkedListMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkedListandLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MaxNumberOfUniqueElements/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MaxNumberOfUniqueElements/test_improved_failed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MaxNumberOfUniqueElements/test_improved_hash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MultiThreading/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MultiThreading/PrintChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MultiThreading/PrintNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/OccurenceFrequency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/PerformanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/QueueApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/RemoveDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/RemoveDuplicatesFromArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Serialisibilty/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Serialisibilty/mainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/SetListPerformance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Sets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Stack/CustomStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Stack/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Stack/StackMainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Stack/StackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/StackMainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/StackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/TreeeSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/ValueExistInLinkedHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/commandLineArguments/CommandLineArguments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/copyMapToTreeMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/exceptionHandling/ExampleClassA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/exceptionHandling/ExampleMainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/fileHandling/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/AgeComparatorClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/ArrayLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/LongStringIdentification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/MainClassesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/MainComparatorClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/MainProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/NameComparatorClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/StringIdentification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/TowerOfHanoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/TriangularNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/stringReverseUsingStacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPrograms/EntryptedMessage/Dec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPrograms/EntryptedMessage/Enc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechgigPalindrome/TechgigPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PrintStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="665" column="1" lean-forward="true" selection-start-line="665" selection-start-column="1" selection-end-line="665" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionalProgrammingClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="squaredStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/squaredStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Functional_Programming/FunctionalProgrammingClass.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java" />
+        <option value="$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/squaredStrings.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="47" />
+    <option name="y" value="-14" />
+    <option name="width" value="1358" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_Helper_Codes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Online_Random_Challenge_Solutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="FunctionalProgrammingClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Functional_Programming.FunctionalProgrammingClass" />
+      <module name="untitled" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functional_Programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FunctionalProgrammingClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d08c0ae-57cd-40dd-ab10-9148a197dc86" name="Default" comment="" />
+      <created>1540833978830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540833978830</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" order="2" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32991204" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15936">
+          <caret line="664" column="16" selection-start-line="664" selection-start-column="16" selection-end-line="664" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="665" column="1" lean-forward="true" selection-start-line="665" selection-start-column="1" selection-end-line="665" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/squaredStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>untitled</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

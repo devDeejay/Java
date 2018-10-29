@@ -1,0 +1,406 @@
+Graph Data Structure : Since its not a linear DS, it gets a lil more complex.
+        There are 3 ways to represent a graph
+            1. Adjacency Matrix
+
+                Let's gather the information we need to store for a Graph G.
+                    The number of vertices
+                    The number of edges
+                    Which edge connects which two Nodes :
+                        For this lets take a 2D Array
+                        In which the 1,0 is stored that shows whether there is an edge betweeen two nodes.
+
+
+* Graphs are abstract Data Type {ADT : Made up of primitive data types arranged in some way in memory (This is called Data structures) which allows various operations on it, which makes it Abstract Data Type} which implements the concept of Graphs from Mathematics.
+
+A Graph is simply a collection of nodes connected by edges, This is not a linear Data structure hence its implementation is quite different.
+
+ADT = DS + Operation
+
+    Non Linear Data Structures
+    Used to model a lot of real work systems and application
+    
+* A graph is like a tree where each node is connected to other nodes but a Tree follows some set of rules dictating the connection among nodes in a Tree.
+
+    - If there are N Nodes, there must be exactly N-1 edges
+    
+    - All Nodes must be reachable, and from Root to a node there should be only one unique Path.
+    
+    - Tree is only a special kind of Graph.
+
+    - Study of Graph is called Graph Theory
+    
+        A graph G is an ordered pair of set toalNumberOfVertices of vertices and a set E of edges.
+        
+            G = (toalNumberOfVertices, E)
+            
+            Ordered pair (a,b) != (b,a) {if a != b}
+            
+            Oredered pair is written as (a, b, c, d)
+            Unoredered pair is written as {a, b, c, d}
+            
+* Vertices :
+
+    toalNumberOfVertices = {v1, v2, v3, v4, v5} Set of verticies of a Graph
+
+* Edges
+
+    - Directed Edge
+
+        (u, v) Goes from u -> b
+        (v, u) Goes from v -> u
+        
+            {The above is an example of parallel edges between two nodes}
+            
+            Digraphs is graph having directed edges / Ordered Pairs
+    
+    - Undirected Edge
+    
+        Undirected Edge makes a two way connection, Unoredred pairs 
+        
+        Edges = {
+            {v1, v2}, {v2, v3}, {v3,v5}, {v6, v7}
+        }
+        
+# We will focus on Graphs which just have directed or just Undirected edges, not mixed of 2.
+
+# Examples Of Graphs :
+
+        # Social Netowrk (Unweighted, Undirected Graph)
+
+            -> Like Facebook is an undirected Graph, you have a friend, he has a friend too. Its MUTUAL, hence undirected.
+            -> Suggesting Friends,
+                Suggesting Friends of Friends
+            -> Counting the number of Mutual Friends
+
+        # Internet Web Pages Links (Unweighted, Directed Graph)
+            
+            -> You have directed links from one page to another, mutual links is not necessary.
+            -> You link wikepedia doesnt mean Wikepedia will also link you too.
+            -> This is a directed edge situation.
+            -> Web Crawling is Graph Traversal, Traversing all nodes of a graph from one node. We have various Graph Traversal algorithms.
+            
+        # Maps of Highway / Cities
+            -> Set of cities connected by rail route.
+            -> Intercity Road Network  (Weighted, Undirected Graph)
+            
+                - You have to assign weights to the connecting edges so as to show the real world distance in the Graph.
+                - So as to find the minimum distances between two nodes / cities, you would be required to traverse the path where the cost of reaching the other node is minimum, which help us finding the best possible path between source and destination.
+            
+            -> Intracity Maps, (Weighted, Directed Graphs) 
+                * As there are many One ways too existing in the cities.
+                
+        # Connection between Routers on Internet can be maintained by Graph. 
+        Graph Implements the Mathematical Definition of Graph.
+
+# Graph Properties 
+
+    toalNumberOfVertices = {v0, v1, v2, v3, v4, v5 ...}
+    E = {e0, e1, e2, e3, e4, e5, e6 ...}
+    Hence, G = (toalNumberOfVertices, E) or (E, toalNumberOfVertices)
+
+    |toalNumberOfVertices| - Number of vertices
+    |E| - Number of edges
+
+    - Edges can be directed / undirected
+    - Edges can have weights i.e. weighted graphs
+    
+    - Edge has self loop if you have only one Node for an edge, ie, it is self connecting.
+    - Like for example, a web page can have a link to itself.
+    
+    - There can be multi edge nodes, for example a Flight Ticketing System.
+    - In a simple Directed graph (i.e. No Self Loops or Multi-edges)
+    - One can have a maximum of N ( N - 1 ) Edges.
+    - Similarly for Undirected Graph, one can have maximum of only N ( N - 1) / 2 Edges.
+    - A Graph is called DENSE if number of edges is close to max possible edges, opposit is called SPARSE.
+    - We store a Dense graph in "Adjacency Matrix" and for Sparse we use "Adjacency List".
+    
+# Graph Terminologies >>>
+    
+    - DEGREE : 
+    
+        Degree of a node is the number of Adjacent / Connected Nodes to it. Node with 0 degree is an ISOLATED Node.
+    
+    - PATH : 
+    
+        - Path is way from One Node to another which consists of Edges connecting one after the other from starting node to another node.
+        - A sequence of vertices where each adjacent pair is connected by an Edge.
+        - A SIMPLE PATH is one in which no VERTICES or EDGES are repeated. {A , B, F, H}
+        
+        Types Of PATH : 
+            --> Closed Path when you come back to the starting Node, ie, STARTING NODE = DESTINATION NODE
+            --> SIMPLE PATH : Is a path which goes through all Distinct nodes, ie, none of the nodes in the way are repeated. But, the starting node can be equal to destination node. 
+        
+    - WALK : 
+    
+        When VERTICS and EDGES are repeated, i.e. a PATH is a walk with no repeated EDGES and NODES.
+        
+    - TRAIL :
+    
+        A walk is a TRAIL if vertices can be repeated but EDGES can't be repeated.
+
+    - STRONGLY CONNETED GRAPH :
+    
+        When there exists a PATH between any of the two VERTEX. Keep in mind for DIRECTED GRAPH there might be a path between A and B but not from B to A, and hence don't confuse that one with DIRECTED GRAPH.
+          
+    - CYCLE IN A GRAPH :
+    
+        A walk is closed walk if it starts and ends at same vertex.
+        Its not a cycle really, A cycle is a term used for Simple cycle where no other vertex except Start/End vertex is repeated.
+        
+    - ACYCLIC GRAPH (AG): 
+    
+        A Graph with no cycle is called Acyclic Graph.
+        
+        - Directed AG {DAG}
+        - Undirect AG 
+        
+    - COMPLETE GRAPH / CLIQUE / UNIVERSAL GRAPH
+    
+        A simple graph in which there is an edge between every pair of NODES.
+
+    - NULL Graph
+        A graph without edge is NULL GRAPH.
+        
+    - SUB GRAPH 
+        A graph G' = (toalNumberOfVertices', E')
+        If toalNumberOfVertices' is a subset of toalNumberOfVertices and E' is a subset of E thus all vertices of G' must be in G.
+        
+    - DIRECTED GRAPH : 
+
+        Directed graph consists of Arcs. This means that from One Node to another there is a directed edge / arc which is UNIDIRECTIONAL.
+
+    - UNDIRECTED GRAPH :
+
+    - MULTI-GRAPH :
+
+        If there are multiple edges connecting the same nodes and there are loops in the Graph.
+
+# A Tree is a graph without any CYCLE. There is a simple path between any two nodes. If T is finite tree with m nodes then T will have m-1 edges. This will be a Labelled graph.
+
+
+# Problems in Graph Processing Problems
+
+    Path : Is there a path betweeen s and t ?
+    Shorted Path : What is the shortest path between s and t?
+
+    Cycle : is there a cycle in the graph?
+    Euler Tour : Is there a cycle that uses each EDGE exactly once ?
+    Hamilton Tour : Is there a cycle that uses each VERTEX exactly once ?
+
+    Connectivity : is there a way to connect all the vertices ?
+    MST : best way to do the above task ?
+    BioConnectivity : is there a vertex whose removal disconnects the graph?
+
+    Planarity : Can we draw a graph in the plane with no crossing edges?
+    Graph Isomorphism : Two adjacency list represent the same graph?
+
+    Which of these problems are easy? difficult? intractable?
+
+        
+# Graph Representation In Memory :
+
+    * IDEA 1 : 
+        
+        - The simplest IDEA is Two create Two list, one to store the Verticies and other to store Edges Objects.
+        
+        -  An Edge Object contains the reference to Start and End Vertices it is connecting to, for undirected Graph the order of the edges need not be stored,
+           but for Directed Graph the edges direction needs to be stored too.
+           Direction is stored by assigning the correct Start and End vertex for an EDGE object.
+           Again, for Undirected graph START and END vertex can be swapped, and it won't change the meaning.
+        
+        - For WEIGHTED GRAPH, we just need to add one more field to the EDGE Object i.e. the Weight of that edge.
+
+    # IDEA 2 :
+
+        - Make Adjacency Matrix of (toalNumberOfVertices X toalNumberOfVertices), For each node which has adjacent vertice is assigned true / 1 or false / 0.
+        - For large Graphs, this approach fails as N^2 complexity for large data is crazy thing to have.
+
+    # IDEA 3 :
+
+        {
+
+            Prerequisite : BAG Data Structure
+
+            Imagine a black bag into which you put in items, and after inserting everything you want to retrive items,
+            here, you don't really care the order in which the items come out.
+
+            Code :
+
+                Bag Has 2 Operations :
+
+                    Insert()
+
+                        // Insert the items in the Linked List Or In some data structure for Fast Retrival and Insertion
+
+                    Draw()
+
+                        // Get a random number and retrive the element
+        }
+
+       Back to Idea 3 :
+
+        - Here you have Adjacency List, which is list of all nodes, and each node points to the Linked List / BAG data structure,
+        which consists of all the adjacent nodes to that Node.
+
+        - This is most suitable way to go about Storing graphs in memory
+
+        - Real world Graphs are more SPARSE (high number of vertex, small average degree)
+
+
+
+############################ IMPLEMENTATION ##################################
+
+
+    1. Make The Simple Graph API.
+        - Constructors
+        - addEdge(v, w)
+        - adjacentNode(v)
+        - toalNumberOfVertices() : Number of vertices
+        - E() : Number of edges
+
+
+    2. Let's take a look at simple method of printing the Graph :
+
+        for (int v = 0; v < G.toalNumberOfVertices(); v++) {  // Iterate over all vertices
+            for (int w : G.adj(v)  // Get all adjacent nodes to that vertices
+                print(v + "-" + w);
+        }
+
+    Code :
+
+        Graph(int toalNumberOfVertices) {
+
+        }
+
+        Graph(InputStreamReader in) {
+
+        }
+
+        int toalNumberOfVertices() {
+
+            /*
+             * Return Number of Vertex
+             * */
+
+            return 0;
+        }
+
+        int E() {
+
+            /*
+             * Return Number of Edges
+             * */
+
+            return 0;
+        }
+
+        void addEdge(int v, int w) {
+
+            /*
+             * Adding a vertex v with weight w
+             * */
+
+        }
+
+        Iterable<Integer> adj(int toalNumberOfVertices) {
+
+            /*
+             * Returns all the adjacent Vertex
+             * */
+
+            return null;
+
+        }
+
+        @Override
+        public String toString() {
+
+
+            /*
+             * Returning our own version of toString() method
+             * */
+
+            StringBuilder s = new StringBuilder(toalNumberOfVertices() + " vertices" + E() + "edges");
+            for (int v = 0; v < toalNumberOfVertices(); v++) {
+                s.append("");
+            }
+
+            return "DJ's Graph";
+        }
+
+        public static int degree(Graph G, int toalNumberOfVertices) {
+
+            /*
+             *
+             * Calculates number of Connections of a particular Vertex 'toalNumberOfVertices' in a Graph 'G'
+             *
+             * */
+
+            int degree = 0;
+
+            for (int connection : G.adj(toalNumberOfVertices)) {
+
+                // For each connection of this node, we increment the degree value
+
+                degree++;
+            }
+
+            return degree;
+
+        }
+
+        public static int maxDegree(Graph G) {
+
+            /*
+             * Returns the degree of node which has maximum value of Degree in Graph 'G'
+             * */
+
+            int max = 0;
+            for (int toalNumberOfVertices = 0; toalNumberOfVertices < G.toalNumberOfVertices(); toalNumberOfVertices++) {
+
+                // For each vertex 'toalNumberOfVertices' call the previously defined method degree(G,toalNumberOfVertices)
+
+                if (degree(G, toalNumberOfVertices) > max) {
+                    max = degree(G, toalNumberOfVertices);
+                }
+            }
+
+            return max;
+
+        }
+
+        public static double averageDegree(Graph G) {
+
+            /*
+             * Formula for calculating averageDegree is  ( 2 * E / toalNumberOfVertices )
+             * */
+
+            return 2.0 * G.E() / G.toalNumberOfVertices();
+
+        }
+
+        public static double countSelfLoops(Graph G) {
+
+            /*
+             * Counts the number of Self Loops existing for all vertex 'toalNumberOfVertices' of Graph 'G'
+             * */
+
+            int count = 0;
+            for (int toalNumberOfVertices = 0; toalNumberOfVertices < G.toalNumberOfVertices(); toalNumberOfVertices++) {
+                for (int w : G.adj(toalNumberOfVertices)) {  // Iterating over all destination nodes from this node
+                    if (w == toalNumberOfVertices) { // If destination node is same as this node, it's a loop
+                        count++;
+                    }
+                }
+            }
+
+            return count / 2; // Every edge is counted twice
+        }
+
+######################################## END OF GRAPH API ########################################
+
+How to consume this API ?
+
+    See Graph Class that implements Idea 3 (mentioned in the comment on top)
+
+
