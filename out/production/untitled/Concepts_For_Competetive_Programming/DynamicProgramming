@@ -1,0 +1,34 @@
+Problem Statement :
+
+	- Harry Potter has 'n' mixtures in a row. Each mixture has 1 of the color out of 100 possible colors.
+
+	- If he mixes two potions, some smoke is release and the mixture gets a new color. We can combine only two mixture at a time.
+
+		-- The smoke released is (a * b) while the new color is (a + b) % 100
+
+	- Find out the minimal amount of smoke that shall be possible to released by mixing all the mixtures.
+
+
+Solution :
+
+	Lets assume you have to multiple A B C D, you can do (A B C) * D or (A * B) ( C * D ) or think of all the possible Permutations and Combinations. So you have to break down the problem like that, i.e, split the mixtures of potions.
+
+
+
+									A B C D
+
+				A | B C D     		A B | C D 				A B C | D             
+
+For A, here the                    For A * B | C * D
+smoke will be 0.				Smoke generated = (A + B) % 100
+								Similarly = (C + D) % 100
+
+
+
+So, We can say 
+
+	(A1 A2 A3 A4 A5... AK) (AK+1 AK+2 AK+3 ... An) 
+			f(i,k)					f(k+1, j)
+
+
+	f(i, j) = f(i, k) + f(k+1, j) + cSum(i,k) * cSum(k+1, n)
