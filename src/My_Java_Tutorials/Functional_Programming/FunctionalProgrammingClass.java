@@ -46,18 +46,24 @@ public class FunctionalProgrammingClass {
         * */
 
         list.forEach((String item) -> {
-            System.out.print(item);
+            System.out.print(item + " ");
         });
 
         // Wait, this gets better
         // Since, there is only one line inside the {} of the function, we can simple declare it like that
-        list.forEach((String item) -> System.out.print(item) );
+        list.forEach((String item) -> System.out.print(item + " "));
 
         // Hey, it still is getting better
-        // For single input
-        list.forEach(item -> System.out.print(item));
+        // For single input parameter you can remove the '( )' too
+        list.forEach(item -> System.out.print(item + " "));
 
-        // And then look at this thing man :(
-        list.forEach(System.out::print);
+        // You can manually make a consuemer function and pass it like this
+        Consumer<String> printer = item -> System.out.print(item + " ");
+        list.forEach(printer);
+
+        // We are not done yet...
+        // We can still make it better by Method Reference
+        list.forEach(System.out::println);
+
     }
 }
