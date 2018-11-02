@@ -1,5 +1,6 @@
 package My_Java_Tutorials.Java_Lambdas;
 
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -49,6 +50,17 @@ public class Main {
         books.forEach((book -> System.out.println(book)));
 
 
+    }
+
+    public static void usingMethodReferences() {
+        // You can do this by method references
+        List<Book> books =  Books.all();
+        Collections.sort(books, Comparator.comparing(book -> book.getTitle()));
+
+        // Or
+
+        Collections.sort(books, Comparator.comparing(Book::getTitle));
+        books.forEach(book -> System.out.println(book));
     }
 
     public static void main(String[] args) {
