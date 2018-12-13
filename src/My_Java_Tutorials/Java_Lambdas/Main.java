@@ -8,9 +8,7 @@ import java.util.List;
 public class Main {
 
     // Prior to Java 8, this is how we did things.
-
     // A lot of event driven programming uses SAMs
-
     // After Java 8 -> Unknown/Unnamed functions are called Lambdas.
     // They can be used anywhere in place of SAM and are now called as Functional Interfaces.
 
@@ -48,8 +46,6 @@ public class Main {
 
         // We have a way to iterate over Collections : Using Consumer
         books.forEach((book -> System.out.println(book)));
-
-
     }
 
     public static void usingMethodReferences() {

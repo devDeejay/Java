@@ -1,28 +1,33 @@
-package Java.Data_Structures.Graphs;
+package Data_Structures.Graphs;
 
-// Idea 3 Implementation of Graphs using Adjacency List
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Graph {
+    int numberOfVertex;
+    int numberOfEdges;
 
-    private final int toalNumberOfVertices;  // Number of Vertices
-    private Bag<Integer>[] adjacencyBag;  // Array of bags which hold adjacent nodes to each vertex
+    ArrayList<ArrayList<Integer>> vertex = new ArrayList();
 
-    public Graph(int toalNumberOfVertices) {
-        this.toalNumberOfVertices = toalNumberOfVertices;
-        adjacencyBag = new Bag[toalNumberOfVertices]; // We need toalNumberOfVertices bags for toalNumberOfVertices nodes
+    void addVertex(Integer value) {
+        vertex.add(new ArrayList<>());
+        vertex.get(value).add(value);
+    }
 
-        for (int vertex = 0; vertex < toalNumberOfVertices; vertex++) {
-            adjacencyBag[vertex] = new Bag<>(); // Initializing bags for all vertices
+    void addEdge(Integer vertex1, Integer vertex2) {
+        vertex.get(vertex1).add(vertex2);
+    }
+
+    void addEdges(Integer vertex1, Integer[] arrayOfVertices) {
+        vertex.get(vertex1).addAll(Arrays.asList(arrayOfVertices));
+    }
+
+    void showConnections() {
+        for (ArrayList<Integer> listOfVertex : vertex) {
+            for (Integer vertex : listOfVertex) {
+                System.out.print(vertex + " --> ");
+            }
+            System.out.println();
         }
     }
-
-    public void addEdge (int startNode, int endNode) {
-        adjacencyBag[startNode].add(endNode);
-        adjacencyBag[endNode].add(startNode);
-    }
-
-    public Iterable<Integer> getAdjacentNodesForVertex (int vertex) {
-        return adjacencyBag[vertex].getList();
-    }
-
 }

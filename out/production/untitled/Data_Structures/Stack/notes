@@ -1,0 +1,6 @@
+STACK :
+
+    - Java Arrays has its own limitation but we can build on top of it.
+    - Stack examples : Stack of plates
+    - Last In First Out Scenario
+    - Push and Pop are two primary operations we do on Stacks

@@ -34,9 +34,7 @@ public class ProbabilityOfWinning {
     }
 
     private static double calculateCombination(int n, int r) {
-
         return calculateFactorial(n) / ( (calculateFactorial(n - r)) * (calculateFactorial(r)));
-
     }
 
     private static double calculateFactorial(int n) {

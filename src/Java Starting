@@ -1,0 +1,18 @@
+JAVA MEMORY IN BACKGROUND WHEN WE RUN A JAVA PROGRAM :
+
+    - You create a class and press RUN button, interpreter will give you error, it needs some instruction in form of method.
+    - Especially, a main method is what the interpreter is looking for to start the execution of your program.
+    - There is some reserved memory that is assigned for execution of program. There is a STACK and HEAP area inside this memory.
+
+        1. STACK
+            - main method once started, gets pushed into the Stack.
+                - Take it like it occupies one frame of the memory, here it stores all the local variables.
+            - If main method calls another methods, they are pushed further into the the STACK, and their local variables are stored in their respective frame.
+            - Hence, we can say Stack maintains the method invocations, and once main is done with it's execution, it gets popped out of stack.
+
+        2. HEAP
+            - The objects created occupy the memory in the HEAP.
+            - The class level variables are also stored in the HEAP as they are subset of the objects.
+            - int a = new Object();
+              'a' is stored in the STACK Frame, while the new Obect() is created in HEAP memory whose address is stored in the value of 'a'
+

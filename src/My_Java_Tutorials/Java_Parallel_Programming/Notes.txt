@@ -1,0 +1,111 @@
+The Java Fork Join Framework
+
+    Prerequisites :
+
+        Java Executor Service:
+            is about having a thread pool that stores the task in Blocking Queue.
+            Threads take tasks from Blocking queue and executes.
+            We use Callable instead of Runnable as values have to be returned back
+            Multiple parallel tasks run, completes the execution, returns the value
+
+    Fork Join Framework works in just the same manner.
+    Optimised for Task to produce more sub-tasks
+
+    - Came in Java 7. Helps speed up parallel execution by using all available CPU Cores.
+    - Follows a Divide and Conquer approach.
+    - This means that the framework first “forks”, recursively breaking the big complex task into smaller independent sub-tasks
+      until they are simple enough to be executed asynchronously.
+    - After that, the “join” part begins, in which results of all subtasks are recursively joined into a single result,
+      or in the case of a task which returns void, the program simply waits until every subtask is executed.
+
+        1. Fork Join Pool
+            - Executor Service that runs the Fork Join Task.
+            - To provide effective parallel execution, the fork/join framework uses a pool of threads called
+              the ForkJoinPool, which manages worker threads of type ForkJoinWorkerThread.
+            - It is an implementation of the ExecutorService that manages worker threads and provides us with tools to
+              get information about the thread pool state and performance.
+            - Each thread in the pool isn't assigned unique tasks, instead each thread maintains a Doubly Ended Queue or Deque or Deck.
+              which stores the tasks
+            - A thread's workload is balanced by work-stealing algorithms.
+            - No blocking occurs (unless stealing)
+            - Easier Scheduling
+            - Scenario : Where Thread1 produces 100 subtasks while Thread2 produces only 50.
+                         Thread2 will steal work from the Thread1 bottom end of the queue. Hence distribution of work load
+                         occurs here.
+            -
+
+            # Work Stealing Algorithm ?
+                    - "Free threads steal work from busy threads"
+                    - By default a thread gets task from head of its own Deck
+                    - If thread completes all the queued task from head, deck gets empty, i.e. he has no work left
+                      so now he will look for work to steal from the tail of the doubly ended queues.
+
+            # Fork / Join Pool Instantiation
+                    - In Java 8, use method commonPool() to get access to ForkJoinPool. This points to a default thread pool.
+
+                            ForkJoinPool commonPool = ForkJoinPool.commonPool(); // Java 8
+                            ForkJoinPool forkJoinPool = new ForkJoinPool(2); // Java 7 - pool will use 2 processor cores
+                            ForkJoinPool forkJoinPool = PoolUtil.forkJoinPool;
+
+            - Typically Used ( Dividing the problem into independent sub problems)
+                    Sorting
+                    Matrix Multiplication
+                    Best move finder for a game
+                    Tree Traversal
+
+        2. Fork Join Task : Task is broken into subtask and is then combined upon calculation. There is a common queue where the tasks
+            are stored and retrieved.
+            - In practice, one of its two subclasses should be extended: the RecursiveAction for void tasks and
+            the RecursiveTask<V> for tasks that return a value.
+            - They both have an abstract method compute() in which the task’s logic is defined.
+
+            This is a base class for ForkJoinFramework which can be further broken into
+                - RecursiveAction
+                   It has a compute() method
+                - RecursiveTask
+                    It has get() method to get current value which is being calculated get(timeout).
+
+this is a test
+
+    - Big Task is broken into smaller and smaller tasks using Fork() method
+    - For each division, we will wait for the data to be returned from the child nodes
+    - Join() method adds up the broken solutions after the computation is done into one final solution.
+    - Tree grows from Top to Bottom (For Fork() calls) and then grows further down to one parent node (For Join() Calls)
+
+    Basic Approach :
+
+            public class Task extends RecursiveAction {
+                stuff...
+                @Override
+                    protected void compute() {
+                        if (given portion of work is small enough) {
+                            just do it!
+                        }
+                        else {
+                            Split the work, then invoke smaller tasks and wait for result
+                        }
+                    }
+            }
+
+      Fibonacci Sequence Example :
+
+
+Amdal's Law :
+
+    SpeedUp = Performance of Computer
+        T(S)  -> Single Processor Time
+        ----
+        T(P)  -> Multi Processor Time
+
+    Efficiency = Performance (AKA Speedup) / Number of Processors => Speedup/Number Of Processor
+    Amdahl gave his law : For any computer S(P) will be less <= 1.
+
+    Speedup doesn't apply to the whole program, just some specific parts of it.
+
+                                                                   1
+    Overall speedup =    --------------------------------------------------------------------------------
+                         ( 1 - Fraction Of Enhanced Part Of Program) + (Fraction Of Enhanced Program)
+                                                                       ------------------------------
+                                                                              Speedup Of Program
+
+    Fraction Enhancement = % Of Original Execution Time That is affected by Enhancement.

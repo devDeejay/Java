@@ -1,154 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/HackerEarth/NormalizingImages/Main.java" line="37" />
+    <bookmark url="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/SingleLinkedList.java" line="37" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0d08c0ae-57cd-40dd-ab10-9148a197dc86" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CompetetiveProgrammingConcepts/DynamicProgramming" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompetetiveProgrammingConcepts/DynamicProgrammingHarryPotterMinimalSmokeMixture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Graphs/Bag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Graphs/Graph Notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Graphs/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Graphs/GraphAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/LinkedList/LinkList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/LinkedList/LinkedLists_Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/LinkedList/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/AnalysingTimeForSearching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/BetterFibonacciNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/CountOccurenceOfWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/CustomPriorityQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/CustomQueueClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/CustomStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/EvaluateExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/ExceptionHandling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/FindKeywordsInJavaFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/GeometricComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Iterators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Link.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkedHashMapProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkedHashSetProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkedListMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/LinkedListandLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/PerformanceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/QueueApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/SetListPerformance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Sets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/StackMainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/StackTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/TreeeSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/Vectors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures/Others/stringReverseUsingStacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerEarth/CandyPicking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerEarth/HarryPotterSpiders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerEarth/HeisenbergStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerEarth/MaxSortInKSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerEarth/ProbabilityOfWinning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Problem_Solving_Solutions/DynamicArray/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Problem_Solving_Solutions/HourGlass/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Problem_Solving_Solutions/ReverseArray/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Problem_Solving_Solutions/Rotation/Rotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/CamelCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PerfectEquation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PlayinWithString/StringExampless.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PlayinWithString/reverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PlayinWithString/subsetSumSortOf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/PlusMinus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/StairCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/SumOfArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/TextEncryption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/diagonalDifference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank Solutions/HackerRank_Random_Solutions/timeInWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/AnalysingTimeForSearching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/ArraysClassMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BetterFibonacciNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BigDecimalSort/BigDecimalSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BufferedReader/KMaxSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BufferedReader/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/BufferedReader/TwoDArraySum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CalculateCombination/Combination_BigInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CalculateCombination/Combination_Long.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CheckPrime/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CountOccurenceOfWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CustomPriorityQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CustomQueueClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/CustomStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Data_Types/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/DateToDay/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/EvaluateExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/ExceptionHandling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/FindKeywordsInJavaFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/GeometricComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/HashsetToArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/InnerClass/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/IterateArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Iterators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/JavaCurrencyFormatter/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_Comparator/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_End_of_file/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_Loops_I/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_Sort_Comparator/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Java_Varargs_Simple_Addition/Add.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/KeysToList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Link.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkedHashMapProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkedHashSetProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkedListMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/LinkedListandLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MaxNumberOfUniqueElements/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MaxNumberOfUniqueElements/test_improved_failed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MaxNumberOfUniqueElements/test_improved_hash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MultiThreading/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MultiThreading/PrintChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/MultiThreading/PrintNum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/OccurenceFrequency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/PerformanceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/QueueApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/RemoveDuplicates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/RemoveDuplicatesFromArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Serialisibilty/Students.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Serialisibilty/mainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/SetListPerformance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Sets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Stack/CustomStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Stack/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Stack/StackMainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/Stack/StackTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/StackMainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/StackTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/TreeeSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/ValueExistInLinkedHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/commandLineArguments/CommandLineArguments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/copyMapToTreeMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/exceptionHandling/ExampleClassA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/exceptionHandling/ExampleMainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/fileHandling/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/AgeComparatorClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/ArrayLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/LongStringIdentification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/MainClassesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/MainComparatorClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/MainProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/NameComparatorClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/StringIdentification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/Students.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/TowerOfHanoi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/TriangularNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/learningJava/test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Helper_Codes/stringReverseUsingStacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyPrograms/EntryptedMessage/Dec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyPrograms/EntryptedMessage/Enc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechgigPalindrome/TechgigPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/LinkedListApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Functional_Programming/FunctionalProgrammingClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Functional_Programming/FunctionalProgrammingClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Java/CompetetiveProgrammingConcepts/DynamicProgrammingHarryPotterMinimalSmokeMixture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Java/Data_Structures/Others/BetterFibonacciNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Java/Data_Structures/Others/BetterFibonacciNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Concepts_For_Competetive_Programming/DynamicProgrammingHarryPotterMinimalSmokeMixture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/Graphs/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/Graphs/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/Graphs/GraphAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/LinkedList/LinkList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/LinkedList/LinkedLists_Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/LinkedList/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/Others/BetterFibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structures/Others/BetterFibonacciNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HackerEarth/ProbabilityOfWinning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerEarth/ProbabilityOfWinning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Lambdas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Lambdas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/BetterFibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/BetterFibonacciNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/squaredStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/squaredStrings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,31 +34,152 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1879693378">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3063" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3063" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrintStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="665" column="1" lean-forward="true" selection-start-line="665" selection-start-column="1" selection-end-line="665" selection-end-column="1" />
+            <state relative-caret-position="552">
+              <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
+              <folding>
+                <element signature="method#find#0;class#BinarySearchTree#0" />
+                <element signature="method#insertAll#0;class#BinarySearchTree#0" />
+                <element signature="method#insert#0;class#BinarySearchTree#0" />
+                <element signature="method#getSecondLargestElement#0;class#BinarySearchTree#0" />
+                <element signature="e#2964#3008#0" />
+                <element signature="method#InOrderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="method#PreOrderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="method#PostOrderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="method#heightOfBinaryTree#0;class#BinarySearchTree#0" />
+                <element signature="method#increaseTheHeight#0;class#BinarySearchTree#0" />
+                <element signature="method#getHeight#0;class#BinarySearchTree#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FunctionalProgrammingClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java">
+      <file leaf-file-name="QueueApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data_Structures/Queue/QueueApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="307">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="squaredStrings.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/squaredStrings.java">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data_Structures/Queue/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding>
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="38" column="31" selection-start-line="1" selection-end-line="41" />
+              <folding>
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/MovieApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircularDoublyLinkedListApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedListApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircularDoublyLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="method#CircularDoublyLinkedList#0;class#CircularDoublyLinkedList#0" />
+                <element signature="method#insertNode#0;class#CircularDoublyLinkedList#0" />
+                <element signature="method#displayListForward#0;class#CircularDoublyLinkedList#0" />
+                <element signature="method#displayListReverse#0;class#CircularDoublyLinkedList#0" />
+                <element signature="method#findNode#0;class#CircularDoublyLinkedList#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,6 +193,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>isEm</find>
+      <find>displ</find>
+      <find>insert</find>
+      <find>displa</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -205,13 +210,61 @@
         <option value="$PROJECT_DIR$/src/Functional_Programming/FunctionalProgrammingClass.java" />
         <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java" />
         <option value="$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/squaredStrings.java" />
+        <option value="$PROJECT_DIR$/src/HackerEarth/ProbabilityOfWinning.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/RecursiveAction.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/RecursiveActionExample.java" />
+        <option value="$PROJECT_DIR$/src/HackerEarth/NormalizingImages/Main.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/FibonacciParallel.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/Notes.txt" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinFibonacci/FibonacciParallel.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinFibonacci/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/FibonacciParallel.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/LargeArrayCreation.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/LargeArrayCreator.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java" />
+        <option value="$PROJECT_DIR$/src/My_Java_Tutorials/Java_Lambdas/Main.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/Node.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/Test.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/BinarySearchTreeMain.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Java Starting" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Stack/notes" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Stack/Stack.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Stack/Test.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Queue/Queue.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Queue/QueueApp.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/LinkList.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/LinkedLists_Main.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/Node.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/CircularSingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/LinkedListApp.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/Node.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/SingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Graphs/GraphApp.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/QueueString/Queue/QueueApp.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/QueueString/Queue/Queue.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Movie.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/MovieApp.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/Node.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/LinkedListApp.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularSingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedListAp.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedListD.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedListApp.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="-14" />
-    <option name="width" value="1358" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="24" />
+    <option name="y" value="-8" />
+    <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -222,6 +275,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,27 +293,55 @@
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_Helper_Codes" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Online_Random_Challenge_Solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="DoublyLinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleLinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542304365656" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Data_Structures.LinkedList" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Github\Java\src\Data_Structures\LinkedList\DoublyLinkedList" />
+      <recent name="F:\Github\Java\src\Data_Structures\QueueString" />
+      <recent name="F:\Github\Java\src\My_Java_Tutorials\Java_Parallel_Programming\ForkJoinTask_LargeArrayCreation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,20 +355,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FunctionalProgrammingClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Functional_Programming.FunctionalProgrammingClass" />
+  <component name="RunManager" selected="Application.CircularDoublyLinkedListApp">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.BinarySearch" />
       <module name="untitled" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Functional_Programming.*" />
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CircularDoublyLinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structures.LinkedList.DoublyLinkedList.CircularDoublyLinkedListApp" />
+      <module name="untitled" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data_Structures.LinkedList.DoublyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GraphApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structures.Graphs.GraphApp" />
+      <module name="untitled" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data_Structures.Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structures.LinkedList.SingleLinkedList.LinkedListApp" />
+      <module name="untitled" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data_Structures.LinkedList.SingleLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QueueApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structures.QueueString.Queue.QueueApp" />
+      <module name="untitled" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data_Structures.QueueString.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -294,7 +424,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -302,6 +432,9 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -312,7 +445,7 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
@@ -324,10 +457,24 @@
       <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.LinkedListApp" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.GraphApp" />
+      <item itemvalue="Application.QueueApp (1)" />
+      <item itemvalue="Application.CircularDoublyLinkedListApp" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionalProgrammingClass" />
+        <item itemvalue="Application.CircularDoublyLinkedListApp" />
+        <item itemvalue="Application.QueueApp (1)" />
+        <item itemvalue="Application.GraphApp" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.LinkedListApp" />
       </list>
     </recent_temporary>
   </component>
@@ -346,64 +493,577 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32991204" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32844576" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32111436" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22693998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24193548" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Job Explorer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>37</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/BinarySearch.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structures/QueueString/Queue/Queue.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java</url>
+          <line>33</line>
+          <properties class="My_Java_Tutorials.Java_Parallel_Programming.ForkJoinTask_LargeArrayCreation.Creator" method="compute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="37" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/BinarySearchTreeMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15936">
-          <caret line="664" column="16" selection-start-line="664" selection-start-column="16" selection-end-line="664" selection-end-column="16" />
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="665" column="1" lean-forward="true" selection-start-line="665" selection-start-column="1" selection-end-line="665" selection-end-column="1" />
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#find#0;class#BinarySearchTree#0" />
+            <element signature="method#insertAll#0;class#BinarySearchTree#0" />
+            <element signature="method#insert#0;class#BinarySearchTree#0" />
+            <element signature="method#getSecondLargestElement#0;class#BinarySearchTree#0" />
+            <element signature="e#2964#3008#0" />
+            <element signature="method#InOrderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#PreOrderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#PostOrderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#heightOfBinaryTree#0;class#BinarySearchTree#0" />
+            <element signature="method#increaseTheHeight#0;class#BinarySearchTree#0" />
+            <element signature="method#getHeight#0;class#BinarySearchTree#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/Test.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java" />
     <entry file="file://$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/squaredStrings.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/ShapeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HackerEarth/CandyPicking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/RecursiveActionExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/Concepts_For_Competetive_Programming/DynamicProgrammingHarryPotterMinimalSmokeMixture.java" />
+    <entry file="file://$PROJECT_DIR$/src/HackerEarth/ProbabilityOfWinning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HackerEarth/NormalizingImages/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/LargeArrayCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinTask_LargeArrayCreation/Creator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinFibonacci/FibonacciParallel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Parallel_Programming/ForkJoinFibonacci/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Functional_Programming/FunctionalProgrammingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My_Java_Tutorials/Java_Lambdas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Online_Random_Challenge_Solutions/RevengeOfPancakes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/BinarySearchTreeMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Concepts_For_Competetive_Programming/DynamicProgramming">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java Starting">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Stack/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Stack/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/LinkedListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="method#SingleLinkedList#0;class#SingleLinkedList#0" />
+            <element signature="method#inserNode#0;class#SingleLinkedList#0" />
+            <element signature="method#displayList#0;class#SingleLinkedList#0" />
+            <element signature="method#findNode#0;class#SingleLinkedList#0" />
+            <element signature="method#insertAtHead#0;class#SingleLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/SingleLinkedList/CircularSingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Graphs/Graph Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Graphs/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Graphs/GraphAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Graphs/GraphApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Graphs/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Tree/BinarySearchTree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
+          <folding>
+            <element signature="method#find#0;class#BinarySearchTree#0" />
+            <element signature="method#insertAll#0;class#BinarySearchTree#0" />
+            <element signature="method#insert#0;class#BinarySearchTree#0" />
+            <element signature="method#getSecondLargestElement#0;class#BinarySearchTree#0" />
+            <element signature="e#2964#3008#0" />
+            <element signature="method#InOrderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#PreOrderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#PostOrderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#heightOfBinaryTree#0;class#BinarySearchTree#0" />
+            <element signature="method#increaseTheHeight#0;class#BinarySearchTree#0" />
+            <element signature="method#getHeight#0;class#BinarySearchTree#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Queue/QueueApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/QueueString/Queue/QueueApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="2" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/QueueString/Queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="76" lean-forward="true" selection-start-line="1" selection-end-line="76" />
+          <folding>
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="38" column="31" selection-start-line="1" selection-end-line="41" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/MovieApp.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedListD.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/LinkedList/DoublyLinkedList/CircularDoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="method#CircularDoublyLinkedList#0;class#CircularDoublyLinkedList#0" />
+            <element signature="method#insertNode#0;class#CircularDoublyLinkedList#0" />
+            <element signature="method#displayListForward#0;class#CircularDoublyLinkedList#0" />
+            <element signature="method#displayListReverse#0;class#CircularDoublyLinkedList#0" />
+            <element signature="method#findNode#0;class#CircularDoublyLinkedList#0" />
+          </folding>
         </state>
       </provider>
     </entry>
