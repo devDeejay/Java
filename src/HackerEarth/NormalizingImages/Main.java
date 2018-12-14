@@ -15,31 +15,32 @@ public class Main {
         // Randomly populating the two arrays with values between 0 to 255 ( This takes time)
         // Averaging and Normalising the arrays
 
-        populateArraysWithRandomValues(array1, array2);         // This takes time
+        // This takes time
+        populateArraysWithRandomValues(array1, array2);
         System.out.println("Data ready for execution");
 
-        // Printing the Populated Arrays
-        // System.out.println("Image Arrays:");
-        // System.out.println(Arrays.toString(array1));
-        // System.out.println(Arrays.toString(array2));
+        // Printing the Randomly Populated Arrays
+        System.out.println("Image Arrays:");
+        System.out.println(Arrays.toString(array1));
+        System.out.println(Arrays.toString(array2));
 
         // Averaging the arrays
         averageArrays(array1, array2);
 
-        // System.out.println("Averaged Arrays: ");
-        // System.out.println(Arrays.toString(array1));
+        System.out.println("Averaged Arrays: ");
+        System.out.println(Arrays.toString(array1));
         array2 = null; // Don't need array2 anymore
 
         // Normalise the averaged Array
         normaliseArray(array1);
 
         // All done, Print the output
-        // System.out.println("Answer:");
-        // System.out.println(Arrays.toString(array1));
+        System.out.println("Answer:");
+        System.out.println(Arrays.toString(array1));
         System.out.println("Execution done");
-        long endTime = System.currentTimeMillis();
     }
 
+    // Populate the 2 Arrays with random data between 0-255
     private static void populateArraysWithRandomValues(int[] array1, int[] array2) {
         Random random = new Random();
         for (int i = 0; i < array1.length; i++) {
@@ -48,6 +49,7 @@ public class Main {
         }
     }
 
+    // Average the array method
     private static int[] averageArrays(int[] array1, int[] array2) {
         for (int i = 0; i < array1.length; i++) {
             array1[i] = (array1[i] + array2[i]) / 2;
@@ -55,6 +57,7 @@ public class Main {
         return array1;
     }
 
+    // Normalise Array
     private static int[] normaliseArray(int[] array) {
         int max = findMax(array);
         for (int i = 0; i < array.length; i++) {
@@ -63,10 +66,12 @@ public class Main {
         return array;
     }
 
+    // Normalize Each Value with respect to Max
     private static int normaliseValue(int i, int max) {
         return (255 * i) / max;
     }
 
+    // Find Max Amongst the array
     private static int findMax(int[] array) {
         int max = Integer.MIN_VALUE;
         for (int n : array) {
